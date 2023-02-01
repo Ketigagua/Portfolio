@@ -1,0 +1,70 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: var(--headerHeight);
+  padding: 2rem;
+  z-index: 1000;
+  background: var(--projectCardColor);
+}
+.header .logo a {
+  color: var(--textColor);
+  font-weight: 600;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .header .navBar {
+    background: var(--projectCardColor);
+    position: absolute;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    z-index: 1000;
+  }
+  .header .navLists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 0;
+  }
+  .header .closeNavBar {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
+  .header .closeNavBar:hover .icon {
+    color: var(--primaryColor);
+  }
+  .header .navItem {
+    padding: 1rem 0;
+  }
+  .header .navItem .navLink {
+    color: var(--textColor);
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .header .navItem .navLink:hover {
+    color: var(--primaryColor);
+  }
+  .header .navItem .navLink .headerNumber {
+    color: var(--primaryColor);
+  }
+  .header .btn {
+    margin-top: 1rem;
+  }
+  .header .btn a {
+    color: var(--textColor);
+  }
+}/*# sourceMappingURL=navbar.css.map */
