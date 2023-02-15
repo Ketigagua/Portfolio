@@ -1,1 +1,23 @@
-/*# sourceMappingURL=projects.css.map */
+.projects .projectContainer {
+  margin-top: 1rem;
+  justify-content: space-between;
+  grid-template-columns: repeat(1, 1ft);
+}
+.projects .projectContainer .singleProject {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+  height: 100%;
+  background: var(--projectCardColor);
+}
+.projects .projectContainer .singleProject .externalLinks {
+  width: 100%;
+  justify-content: space-between;
+}
+.projects .projectContainer .singleProject .externalLinks .githubIcon a {
+  color: var(--primariColor);
+}
+.projects .projectContainer .singleProject .externalLinks .githubIcon a:hover {
+  color: var(--primaryHover);
+}/*# sourceMappingURL=projects.css.map */

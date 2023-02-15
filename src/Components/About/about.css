@@ -1,1 +1,72 @@
-/*# sourceMappingURL=about.css.map */
+.about .sectionContent .textSection h4 {
+  color: var(--secondaryColor);
+  font-size: 1.1rem;
+  font-weight: 500;
+  max-width: 100%;
+  letter-spacing: 1px;
+  margin: auto;
+}
+.about .sectionContent .textSection .aboutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background: var(--primaryColor);
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px 15px;
+}
+.about .sectionContent .textSection .aboutBtn:hover {
+  background: var(--primaryHover);
+}
+.about .sectionContent .textSection .aboutBtn a {
+  color: var(--projectCardColor);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+.about .sectionContent .textSection .aboutBtn a:hover {
+  color: var(--textColor);
+}
+.about .sectionContent .aboutImgDiv {
+  position: relative;
+  width: 250px;
+  height: 259px;
+  margin: 2rem auto 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: grid;
+  border: 2px solid var(--primaryColor);
+}
+.about .sectionContent .aboutImg {
+  width: 215;
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-self: center;
+  justify-self: center;
+}
+.about .aboutImgDiv::before {
+  content: "Hover Me";
+  font-size: 1.6rem;
+  color: var(--BgColor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inconsolata", monospace;
+  justify-self: center;
+  align-self: center;
+  background: var(--primaryColor);
+  height: 97%;
+  width: 97%;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  transition: all 0.3rem;
+  mix-blend-mode: screen;
+}
+.about .aboutImgDiv:hover.aboutImgDiv::before {
+  height: 0%;
+}/*# sourceMappingURL=about.css.map */
