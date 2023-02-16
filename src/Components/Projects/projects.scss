@@ -27,7 +27,7 @@
       }
       &:hover {
         transform: translateY(-7px);
-        border-bottom: 2px solid var(--primariColor);
+        border-bottom: 2px solid var(--primaryColor);
       }
       .imgDiv {
         height: 150px;
@@ -58,6 +58,43 @@
         small {
           color: var(--secondaryColor);
           font-weight: 600;
+        }
+      }
+    }
+  }
+}
+
+//Media queries
+
+@media screen and(min-width:600px) {
+  .projects {
+    .projectContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media screen and(min-width:769px) {
+  .projects {
+    width: 70%;
+    margin: auto;
+    .projectContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media screen and(min-width:1150px) {
+  .projects {
+    .projectContainer {
+      grid-template-columns: repeat(3, 1fr);
+
+      .singleProject {
+        .desc {
+          font-size: 17px;
+          .technologies {
+            small {
+              font-size: 15px;
+            }
+          }
         }
       }
     }

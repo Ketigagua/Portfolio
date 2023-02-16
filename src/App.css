@@ -175,6 +175,19 @@ body {
   color: white;
 }
 
+::selection {
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--projectCardColor);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--primaryHover);
+}
 @media screen and (min-width: 769px) {
   .container {
     width: 70%;

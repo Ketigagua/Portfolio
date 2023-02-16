@@ -111,4 +111,17 @@
 }
 .contact .contactContainer .form form .formBtn:hover {
   background: var(--primaryColor);
+}
+
+@media screen and (min-width: 640px) {
+  .cards {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 960px) {
+  .contact .contactContainer {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start !important;
+  }
 }/*# sourceMappingURL=contacts.css.map */
