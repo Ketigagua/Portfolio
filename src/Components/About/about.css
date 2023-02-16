@@ -69,4 +69,12 @@
 }
 .about .aboutImgDiv:hover.aboutImgDiv::before {
   height: 0%;
+}
+
+@media screen and (min-width: 770px) {
+  .about {
+    padding: 5rem 1.5rem;
+    width: 70%;
+    margin: auto;
+  }
 }/*# sourceMappingURL=about.css.map */

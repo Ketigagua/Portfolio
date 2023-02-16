@@ -2,6 +2,7 @@
   margin-top: 1rem;
   justify-content: space-between;
   grid-template-columns: repeat(1, 1ft);
+  gap: 1rem;
 }
 .projects .projectContainer .singleProject {
   display: grid;
@@ -20,4 +21,39 @@
 }
 .projects .projectContainer .singleProject .externalLinks .githubIcon a:hover {
   color: var(--primaryHover);
+}
+.projects .projectContainer .singleProject:hover {
+  transform: translateY(-7px);
+  border-bottom: 2px solid var(--primariColor);
+}
+.projects .projectContainer .singleProject .imgDiv {
+  height: 150px;
+  width: auto;
+  border-radius: 5px;
+  overflow: hidden;
+  cursor: poi;
+}
+.projects .projectContainer .singleProject .imgDiv img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+.projects .projectContainer .singleProject .projectTitle {
+  display: flex;
+  font-weight: 600;
+  color: var(--textColor);
+}
+.projects .projectContainer .singleProject .desc {
+  font-weight: 600;
+  color: var(--secondaryColor);
+}
+.projects .projectContainer .singleProject .technologies {
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+.projects .projectContainer .singleProject .technologies small {
+  color: var(--secondaryColor);
+  font-weight: 600;
 }/*# sourceMappingURL=projects.css.map */

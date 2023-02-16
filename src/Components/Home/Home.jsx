@@ -8,8 +8,8 @@ import "./home.css";
 
 export const Home = () => {
   return (
-    <section id="home" className="home section">
-      {/* <div className="leftIcons">
+    <section id="home" className="home section container">
+      <div className="leftIcons">
         <div className="socials grid">
           <a href="" target="_blank">
             <AiFillGithub className="icon" />
@@ -20,10 +20,11 @@ export const Home = () => {
           <a href="" target="_blank">
             <FiYoutube className="icon" />
           </a>
+          <div className="line"></div>
         </div>
-      </div> */}
+      </div>
 
-      <div className="container homeContainer">
+      <div className="homeContainer">
         <span className="introText">Hi my name is,</span>
         <h1 className="title">Ketevan Gagua</h1>
         <span className="subTitle">
@@ -50,7 +51,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="rightEmail">
+      <div className="rightEmail">
         <div>
           <div className="emailAddress">
             <a href="https://mailto:ketevangagua83@gmail.com" target="_blank">
@@ -59,7 +60,7 @@ export const Home = () => {
           </div>
           <div className="line"></div>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
