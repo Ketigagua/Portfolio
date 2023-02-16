@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.06c32d18.css",
+    "main.js": "/Portfolio/static/js/main.dca55920.js",
+    "static/media/img2.png": "/Portfolio/static/media/img2.207db9d98f5bf1916d8d.png",
+    "static/media/img5.png": "/Portfolio/static/media/img5.3dfb0657e374c7e341a7.png",
+    "static/media/img4.png": "/Portfolio/static/media/img4.4ea7c78718c1af973089.png",
+    "static/media/img3.png": "/Portfolio/static/media/img3.56fbddd6b694cc8fe2f7.png",
+    "static/media/ketevanGagua.jpg": "/Portfolio/static/media/ketevanGagua.05c3457de3f90a066f42.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.06c32d18.css.map": "/Portfolio/static/css/main.06c32d18.css.map",
+    "main.dca55920.js.map": "/Portfolio/static/js/main.dca55920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06c32d18.css",
+    "static/js/main.dca55920.js"
+  ]
+}
